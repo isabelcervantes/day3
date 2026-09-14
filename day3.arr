@@ -44,4 +44,5 @@ rect3
 
 above(rect1, overlay(stars, rect2))
 
+above(rect1, (above(overlay(stars, rect2), rect3)))
   
