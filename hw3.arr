@@ -54,7 +54,7 @@ fun duration-category(r :: Row) -> String:
   time = get-column(r, "duration")
   if time < 300:
     "short" 
-  else if time < 500:
+  else if time <= 500:
     "medium"
   else:
     "long"
